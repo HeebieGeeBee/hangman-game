@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name=viewport content='width=390'>
+  <title>Hangman v0.2</title>
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme|BioRhyme+Expanded|Ewert" rel="stylesheet">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+<script src="https://use.fontawesome.com/a9518eee75.js"></script>
+  
+</head>
+
+<body>
+  <div class="game-container">
+  <h1>Hangman</h1>
+  <h3>Try and guess the word</h3>
+  <div class="letters-container">
+  </div>
+  <canvas id="hangman"></canvas>
+  <div class="keyboard">
+    <button id="a">A</button>
+    <button id="b">B</button>
+    <button id="c">C</button>
+    <button id="d">D</button>
+    <button id="e">E</button>
+    <button id="f">F</button>
+    <button id="g">G</button>
+    <button id="h">H</button>
+    <button id="i">I</button>
+    <button id="j">J</button>
+    <button id="k">K</button>
+    <button id="l">L</button>
+    <button id="m">M</button>
+    <button id="n">N</button>
+    <button id="o">O</button>
+    <button id="p">P</button>
+    <button id="q">Q</button>
+    <button id="r">R</button>
+    <button id="s">S</button>
+    <button id="t">T</button>
+    <button id="u">U</button>
+    <button id="v">V</button>
+    <button id="w">W</button>
+    <button id="x">X</button>
+    <button id="y">Y</button>
+    <button id="z">Z</button>
+  </div>
+  
+  <button class="mute"><i class="fa fa-volume-off" aria-hidden="true"></i></button>
+  <div class="modals">
+    <div class="win-modal"></div>
+    <div class="lose-modal"></div>
+  </div>
+
+  <div class="background-canvas">
+    <canvas id="bg-canvas"></canvas>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
